@@ -1,0 +1,23 @@
+
+ul{
+   margin-top: 0px;
+    display: flex;
+    background-color: black;
+   
+}
+ul img{
+    margin-top: 15px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+li{
+    display: flex;
+    color: white;
+    list-style: none;
+    padding: 30px;
+    font-size: 15px;
+   float: right;
+
+}

@@ -1,0 +1,66 @@
+.f{
+    margin-left: 30%;
+   
+}
+.container::before{
+    content: "";
+    background: url(../../asserts/image/services2.jpg)no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    margin-top: -19px;
+    margin-top: 2px;
+}
+
+.order{
+    color: rgb(253, 248, 248);
+    font-size: 30px;
+    /* width: 100%; */
+    margin: auto;
+    
+    margin-left: 39%;
+}
+form{
+/* border: 4px solid black ; */
+width: 60%;
+height: 80%;
+text-align: center;
+justify-content: center;
+color: white;
+margin: auto;
+margin: 15px;
+
+/* background-color: rgb(128, 119, 211); */
+}
+input{
+    margin: 5px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 12px;
+    font-weight: bold;
+    border: 2px solid rgb(1, 0, 0);
+}
+.phone{
+    margin-left: -26px;
+}
+.email{
+    margin-left: 25px;
+}
+.city{
+    margin-left: 30px;
+}
+form button{
+    margin-bottom: 12px;
+    width: 200px;
+    margin-left: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 0, 0);
+}
+form button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
